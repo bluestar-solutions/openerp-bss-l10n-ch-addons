@@ -21,7 +21,7 @@
 
 {
     'name': 'Bank BVR',
-    'version': 'master',
+    'version': '7.0.2.0',
     "category" : 'Bluestar/Generic module',
     'complexity': "easy",
     'description': """A swiss bank BVR report.""",
