@@ -26,7 +26,7 @@
     "category" : 'Bluestar/Generic module',
     'complexity': "easy",
     'description': """Bluestar - Cities""",
-    Bluestar Solutions Sàrl
+    'author': 'Bluestar Solutions Sàrl',
     'website': 'http://www.blues2.ch',
     'depends': [],
     'init_xml': [],
