@@ -30,7 +30,8 @@ Swiss bank BVR webkit print report
 
 Swiss localisation : Swiss bank BVR webkit print report.
 
-This report is an addition for Camptocamp OpenERP Swiss Localization (https://code.launchpad.net/~camptocamp/openerp-swiss-localization), which will be available to install bss_bank_bvr.
+This report is an addition to Camptocamp OpenERP Swiss Localization (https://code.launchpad.net/~camptocamp/openerp-swiss-localization).
+Our module bss_bank_bvr depends on Camptocamp OpenERP Swiss Localization modules, which will be in one of your addons folder.
     """,
     'author': 'Bluestar Solutions Sàrl',
     'website': 'http://www.blues2.ch',
