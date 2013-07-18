@@ -24,7 +24,15 @@
     'version': 'master',
     "category" : 'Bluestar/Generic module',
     'complexity': "easy",
-    'description': """A swiss bank BVR report.""",
+    'description': """
+Swiss bank BVR webkit print report
+==================================
+
+Swiss localisation : Swiss bank BVR webkit print report.
+
+This report is an addition to Camptocamp OpenERP Swiss Localization (https://code.launchpad.net/~camptocamp/openerp-swiss-localization).
+Our module bss_bank_bvr depends on Camptocamp OpenERP Swiss Localization modules, which will be in one of your addons folder.
+    """,
     'author': 'Bluestar Solutions Sàrl',
     'website': 'http://www.blues2.ch',
     'depends': ['l10n_ch_bank',
@@ -38,5 +46,6 @@
     'installable': True,
     'application': False,
     'auto_install': False,
+    'images' : ['images/bvr.png',],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
