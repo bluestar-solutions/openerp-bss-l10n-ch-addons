@@ -29,7 +29,7 @@
 Search for swiss zip codes and localities
 =========================================
 
-This module import a list of all swiss postal codes and localities and add a search field in partner form view. The search field can search data by postal codes or locality name.
+This module imports a list of all swiss postal codes and localities and add a search field in partner form view. The search field can search data by postal codes or locality name.
 
 When a user select a city, the module fills the following fields automatically  : postal code, locality, state and country.    
     """,
