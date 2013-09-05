@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-04 15:47+0000\n"
-"PO-Revision-Date: 2013-09-04 15:47+0000\n"
+"POT-Creation-Date: 2013-09-04 15:46+0000\n"
+"PO-Revision-Date: 2013-09-04 15:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,5 +17,5 @@ msgstr ""
 #. module: bss_bank_bvr
 #: model:ir.actions.report.xml,name:bss_bank_bvr.report_bank_bvr_html
 msgid "Bank BVR/ESR"
-msgstr "BVR/ESR banque"
+msgstr ""
 
