@@ -22,7 +22,7 @@
 
 {
     'name': 'Swiss Cities',
-    'version': 'master',
+    'version': '7.0.2.1',
     "category" : 'Bluestar/Generic module',
     'complexity': "easy",
     'description': """
