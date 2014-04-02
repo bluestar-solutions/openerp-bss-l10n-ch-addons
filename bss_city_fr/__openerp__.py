@@ -37,7 +37,9 @@ When a user selects a city, the module Cities fills the following fields automat
     'website': 'http://www.blues2.ch',
     'depends': ['bss_city'],
     'init_xml': [],
-    'update_xml': [ 'datas/bluestar.city.csv',],
+    'update_xml': [
+                   'datas/country_state_data.xml',
+                   'datas/bluestar.city.csv',],
     'demo_xml': [],
     'test': [],
     'installable': True,
