@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 7.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-05 09:07+0000\n"
-"PO-Revision-Date: 2013-09-05 09:07+0000\n"
+"POT-Creation-Date: 2014-04-02 12:56+0000\n"
+"PO-Revision-Date: 2014-04-02 12:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,6 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: bss_city_ch
-#: view:bluestar.city:0
 #: model:ir.model,name:bss_city_ch.model_bluestar_city
 msgid "City"
 msgstr ""
@@ -107,10 +106,8 @@ msgid "Zip complement"
 msgstr ""
 
 #. module: bss_city_ch
-#: view:bluestar.city:0
-#: model:ir.actions.act_window,name:bss_city_ch.action_bluestar_city
-#: model:ir.ui.menu,name:bss_city_ch.menu_bluestar_city
-msgid "Cities"
+#: model:res.country.state,name:bss_city_ch.res_country_state_ch_be
+msgid "Bern"
 msgstr ""
 
 #. module: bss_city_ch
@@ -154,7 +151,6 @@ msgid "Uri"
 msgstr ""
 
 #. module: bss_city_ch
-#: view:res.partner:0
 #: field:res.partner,city_id:0
 msgid "City Search"
 msgstr ""
@@ -162,11 +158,6 @@ msgstr ""
 #. module: bss_city_ch
 #: selection:bluestar.city,zip_type:0
 msgid "Home addresses only"
-msgstr ""
-
-#. module: bss_city_ch
-#: model:res.country.state,name:bss_city_ch.res_country_state_ch_fl
-msgid "Principality of Liechtenstein"
 msgstr ""
 
 #. module: bss_city_ch
@@ -180,8 +171,8 @@ msgid "Partner"
 msgstr ""
 
 #. module: bss_city_ch
-#: model:res.country.state,name:bss_city_ch.res_country_state_ch_it
-msgid "Italy (only for 6911 Campione)"
+#: model:res.country.state,name:bss_city_ch.res_country_state_ch_de
+msgid "Germany (only for 8238 Büsingen)"
 msgstr ""
 
 #. module: bss_city_ch
@@ -200,13 +191,13 @@ msgid "Ticino"
 msgstr ""
 
 #. module: bss_city_ch
-#: model:res.country.state,name:bss_city_ch.res_country_state_ch_be
-msgid "Bern"
+#: model:res.country.state,name:bss_city_ch.res_country_state_ch_fl
+msgid "Principality of Liechtenstein"
 msgstr ""
 
 #. module: bss_city_ch
-#: model:res.country.state,name:bss_city_ch.res_country_state_ch_de
-msgid "Germany (only for 8238 Büsingen)"
+#: model:res.country.state,name:bss_city_ch.res_country_state_ch_it
+msgid "Italy (only for 6911 Campione)"
 msgstr ""
 
 #. module: bss_city_ch
