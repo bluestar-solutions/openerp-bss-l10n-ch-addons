@@ -26,12 +26,12 @@
     "category" : 'Bluestar/Generic module',
     'complexity': "easy",
     'description': """
-Search for swiss zip codes and cities
+Search for french zip codes and cities
 =====================================
 
 This module imports a list of all french postal codes and cities and add a search field in partner form view. The search field can search data by postal codes or city name.
 
-When a user selects a city, the module fills the following fields automatically  : postal code, city, state and country.    
+When a user selects a city, the module Cities fills the following fields automatically  : postal code, city, and country.    
     """,
     'author': 'Bluestar Solutions Sàrl',
     'website': 'http://www.blues2.ch',
