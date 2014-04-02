@@ -21,7 +21,7 @@
 
 
 {
-    'name': 'French Cities',
+    'name': 'Cities',
     'version': 'master',
     "category" : 'Bluestar/Generic module',
     'complexity': "easy",
@@ -29,20 +29,21 @@
 Search for swiss zip codes and cities
 =====================================
 
-This module imports a list of all french postal codes and cities and add a search field in partner form view. The search field can search data by postal codes or city name.
+This module imports a list of all swiss postal codes and cities and add a search field in partner form view. The search field can search data by postal codes or city name.
 
 When a user selects a city, the module fills the following fields automatically  : postal code, city, state and country.    
     """,
     'author': 'Bluestar Solutions Sàrl',
     'website': 'http://www.blues2.ch',
-    'depends': ['bss_city'],
+    'depends': [],
     'init_xml': [],
-    'update_xml': [ 'datas/bluestar.city.csv',],
+    'update_xml': ['security/ir.model.access.csv',
+                   'city_view.xml'],
     'demo_xml': [],
     'test': [],
     'installable': True,
     'application': False,
     'auto_install': False,
-    'images' : [],
+    'images' : ['images/city_search_1.png','images/city_search_2.png','images/city_search_3.png',],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

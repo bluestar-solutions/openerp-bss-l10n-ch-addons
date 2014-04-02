@@ -35,14 +35,12 @@ When a user selects a city, the module fills the following fields automatically 
     """,
     'author': 'Bluestar Solutions Sàrl',
     'website': 'http://www.blues2.ch',
-    'depends': [],
+    'depends': ['bss_city'],
     'init_xml': [],
-    'update_xml': ['security/ir.model.access.csv',
-                   
+    'update_xml': [
                    'datas/country_state_data.xml',
-                   'datas/bluestar.city.csv',
-                   
-                   'city_view.xml'],
+                   'datas/bluestar.city.csv'
+                   ],
     'demo_xml': [],
     'test': [],
     'installable': True,

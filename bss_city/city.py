@@ -73,7 +73,8 @@ class bluestar_partner(osv.osv):
             v['zip'] = city.zip
             v['city'] = city.long_name
             v['country_id'] = city.country_id.id 
-            v['state_id'] = city.state_id.id 
+            if city.state_id:
+                v['state_id'] = city.state_id.id 
             v['city_id'] = None
         
         return {'value': v} 
