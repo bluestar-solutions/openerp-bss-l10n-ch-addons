@@ -21,7 +21,7 @@
 
 {
     'name': 'Bank BVR',
-    'version': '7.0.2.2-20150409',
+    'version': '7.0.2.2-20150423',
     "category" : 'Bluestar/Generic module',
     'complexity': "easy",
     'description': """
